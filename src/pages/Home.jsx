@@ -1,9 +1,10 @@
 import React from 'react';
+import Services from '../Components/Services';
 
 const Home = () => {
     return (
-        <div className='container min-h-screen mx-auto bg-slate-100'>
-            
+        <div className=''>
+            <Services></Services>
         </div>
     );
 };
